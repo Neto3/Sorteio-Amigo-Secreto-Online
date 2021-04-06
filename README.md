@@ -1,9 +1,7 @@
-# NOME DO PRODUTO
+# Sorteio Amigo Secreto Online
 
 ## Equipe
-* Aluno 1
-* Aluno 2
-* Aluno 3
+* William de Souza Neto
 
 ## 1. Visão 
 _Forneça uma declaração que resuma o problema que sendo resolvido pelo sistema. O seguinte formato pode ser usado._
