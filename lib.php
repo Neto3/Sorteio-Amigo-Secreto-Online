@@ -213,7 +213,16 @@ class Grupo {
         $usuarios = $this -> getGrupoUsuarios();
         $amigos = $this -> getGrupoUsuarios();
 
-        shuffle($amigos);
+        $erro = false;
+        
+        do {
+            shuffle($amigos);
+
+            foreach ($usuarios as $key => $usuario) {
+                if ($usuario->id == $amigos[$key]->id)
+                    $erro = true;
+            }
+        } while ($erro == true);
 
         foreach ($usuarios as $key => $usuario) {
             $this -> addUsuarioAmigo($usuario->id, $amigos[$key]->id);
