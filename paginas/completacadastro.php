@@ -109,7 +109,7 @@ if (isset($_POST['bio'])) {
                 <div class="input-group no-border input-lg">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
-                      <i class="now-ui-icons users_circle-08"></i>
+                      <i class="now-ui-icons business_badge"></i>
                     </span>
                   </div>
                   <input type="text" class="form-control" name="bio" placeholder="Bio" />
@@ -118,7 +118,7 @@ if (isset($_POST['bio'])) {
                 <div class="input-group no-border input-lg">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
-                      <i class="now-ui-icons ui-1_email-85"></i>
+                      <i class="now-ui-icons shopping_bag-16"></i>
                     </span>
                   </div>
                   <input type="text" placeholder="Tamanho de Camiseta" name="camiseta" class="form-control" />
@@ -127,7 +127,7 @@ if (isset($_POST['bio'])) {
                 <div class="input-group no-border input-lg">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
-                      <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                      <i class="now-ui-icons shopping_basket"></i>
                     </span>
                   </div>
                   <input type="text" placeholder="Tamanho de Calça" name="calca" class="form-control" />
@@ -136,7 +136,7 @@ if (isset($_POST['bio'])) {
                 <div class="input-group no-border input-lg">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
-                      <i class="now-ui-icons ui-1_lock-circle-open"></i>
+                      <i class="now-ui-icons shopping_tag-content"></i>
                     </span>
                   </div>
                   <input type="text" name="sapatos" placeholder="Tamanho de Sapatos" class="form-control" />
