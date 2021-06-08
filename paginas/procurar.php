@@ -33,7 +33,7 @@ if (isset($_GET['q'])) {
                   
               <?php while ($row = $result->fetch_assoc()) { ?>
                   <div class="card col-md-3" style="padding:10px">
-                    <img class="card-img-top" src="../assets/img/ryan.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/img/group.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title"><?php echo $row['nome']; ?></h4>
                       <a href="grupo.php?grupo_id=<?php echo $row['id']; ?>" class="btn btn-primary">Acessar grupo</a>
