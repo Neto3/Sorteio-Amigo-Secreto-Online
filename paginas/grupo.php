@@ -144,7 +144,14 @@ foreach ($grupo_moderadores as $usuario) {$grupo_moderadores_ids[] = $usuario->i
             </button>
           </div>
           <div class="modal-body">
-            <?php echo $amigo->nome; ?>
+            <div class="card col-md-3" style="padding:10px">
+              <img class="card-img-top" src="../assets/img/ryan.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title"><?php echo $amigo->nome; ?></h4>
+                <p class="card-text"><?php echo $amigo->bio; ?></p>
+                <a href="perfil.php?usuario_id=<?php echo $amigo->id; ?>" class="btn btn-primary">Ver perfil</a>
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
